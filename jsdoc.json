@@ -1,0 +1,10 @@
+{
+    "source": {
+        "includePattern": ".+\\.(?:js|ts)$",
+        "excludePattern": ".+\\.test\\.(?:js|ts)$"
+    },
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": ["jsdoc","closure"]
+    }
+}
