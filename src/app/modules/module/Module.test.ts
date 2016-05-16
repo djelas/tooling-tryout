@@ -1,19 +1,17 @@
-/// <reference path="../../../../typings/mocha/mocha.d.ts" />
+import { expect } from 'chai';
 import ModuleClass from 'Module'
 
-describe('Module', () => {
+describe('ModuleClass', () => {
     var subject: ModuleClass;
 
     beforeEach(function () {
         subject = new ModuleClass();
     });
 
-    describe('#method', () => {
+    describe('method', () => {
         it('should echo', () => {
             var result: any = subject.method(5);
-            if (result !== 5) {
-                throw new Error('Expected 5, instead got ' + result);
-            }
+            expect(result).to.equal(5);
         });
     });
 });
