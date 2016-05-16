@@ -5,7 +5,6 @@
         "noImplicitAny": true,
         "removeComments": true,
         "preserveConstEnums": true,
-        "outFile": "dist/tsc-build.js",
         "sourceMap": true
     },
     "exclude": [
@@ -13,5 +12,8 @@
         "dist",
         "typings/main",
         "typings/main.d.ts"
+    ],
+    "files": [
+        "src/main.ts"
     ]
 }

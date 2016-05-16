@@ -1,0 +1,8 @@
+{
+    "name": "Documentation",
+    "mode": "file",
+    "out": "docs",
+    "theme": "minimal",
+    "target": "ES5",
+    "module": "amd"
+}

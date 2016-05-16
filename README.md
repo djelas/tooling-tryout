@@ -14,13 +14,12 @@
     - SASS, CSS - compile, concat, minify -
     - JS - compile, concat, minify - uglify
         - es6 - babel or typescript
-        - jsx - babel or typescript
-        - code quality - jshint
-        - source maps
+        + code quality - tslint, eslint
+        + source maps
     - module bundler - webpack
     - web components - vulcanize
-    - typescript
-    - documentation - jsdoc
+    + typescript
+    + documentation - typedoc
     - unit tests - test framework mocha, chai
     - code coverage - blanket
     - task runner - gulp, grunt
@@ -43,15 +42,7 @@
     - lodash
     - Q promises
     - any web component
-
-
-Commands:
-npm install --save-dev mocha chai webpack webpack-dev-server
-npm install --save-dev typescript browser-sync eslint jsdoc karma
-npm install --save-dev tsd
-tsd install mocha --save
-
-
-Add tsd install to npm postinstall
-JSDoc run
-/path/to/jsdoc src -r -c /path/to/my/conf.json -d docs
+    
+TODO:
+    - define tslint rules [http://palantir.github.io/tslint/rules/]
+    - 

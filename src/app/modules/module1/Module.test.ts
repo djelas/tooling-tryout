@@ -8,9 +8,9 @@ describe('ModuleClass', () => {
         subject = new ModuleClass();
     });
 
-    describe('method', () => {
-        it('should echo', () => {
-            var result: any = subject.method(5);
+    describe("method", () => {
+        it('should echo", () => {
+            let result: any = subject.method(5);
             expect(result).to.equal(5);
         });
     });
